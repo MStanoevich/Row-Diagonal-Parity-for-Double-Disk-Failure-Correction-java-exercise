@@ -4,6 +4,8 @@ import java.util.List;
 public class RowDisk extends Disk {
 
     private List<Disk> positions = new ArrayList<>();
+    private List<Integer> values = new ArrayList<>();
+
 
     public RowDisk(Disk d1, Disk d2, Disk d3, Disk d4) {
         positions.add(d1);

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64e93d4-f92e-4ef6-8e93-395dada34d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Row-Diagonal-Parity-for-Double-Disk-Failure-Correction-java-exercise.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RowDiagonalParity/DiagonalDisk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RowDiagonalParity/DiagonalDisk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RowDiagonalParity/Disk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RowDiagonalParity/Disk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RowDiagonalParity/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RowDiagonalParity/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RowDiagonalParity/RowDisk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RowDiagonalParity/RowDisk.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DiagonalDisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiagonalDisk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RowDisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RowDisk.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +79,7 @@
       <workItem from="1568879382562" duration="1466000" />
       <workItem from="1568887996884" duration="1682000" />
       <workItem from="1568894362126" duration="5374000" />
+      <workItem from="1568902594624" duration="2182000" />
     </task>
     <servers />
   </component>
@@ -87,7 +91,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
