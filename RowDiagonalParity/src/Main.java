@@ -13,5 +13,11 @@ public class Main {
         RowDisk rd = new RowDisk(d1, d2, d3, d4);
         rd.calculate();
         System.out.println("Row disk values: " + rd.getValues());
+
+        DiagonalDisk dg = new DiagonalDisk(d1, d2, d3, d4, rd);
+        dg.diagonalParityCalculate();
+        System.out.println("Diagonal Parity " + dg.getValues());
+
+
     }
 }
