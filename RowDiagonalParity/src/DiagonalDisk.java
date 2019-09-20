@@ -21,36 +21,49 @@ public class DiagonalDisk extends Disk {
         int dp2 = 0;
         int dp3 = 0;
         int dp4 = 0;
-        //System.out.println(dp1);
+
         if(positions.size() == 5){
 
-            for (int i = 3, j = 1, cnt = 0; cnt < 4;  i--, j++, cnt++) {
-                if( j == 3){
-                    j = 0;
-                    i= abs(i - 2);
+            // TODO optimise the block bellow
+            for (int y = 1, x = 4, cnt = 0; cnt < 4; cnt++) {
+                dp1 += positions.get(x).getValues().get(y);
+                if(y == 3){
+                    y = 0;
+                    x = abs(x - 2);
+                }else{
+                    x--;
                 }
-                dp1 += positions.get(j).getValues().get(i);
+                y++;
             }
-            for (int i = 3, j = 2, cnt = 0; cnt < 4;  i--, j++, cnt++) {
-                if( j == 3){
-                    j = 0;
-                    i= abs(i - 2);
+            for (int y = 2, x = 4, cnt = 0; cnt < 4; cnt++) {
+                dp2 += positions.get(x).getValues().get(y);
+                if(y == 3){
+                    y = 0;
+                    x = abs(x - 2);
+                }else{
+                    x--;
                 }
-                dp2 += positions.get(j).getValues().get(i);
+                y++;
             }
-            for (int i = 3, j = 3, cnt = 0; cnt < 4;  i--, j++, cnt++) {
-                if( j == 3){
-                    j = 0;
-                    i= abs(i - 2);
+            for (int y = 3, x = 4, cnt = 0; cnt < 4; cnt++) {
+                dp3 += positions.get(x).getValues().get(y);
+                if(y == 3){
+                    y = 0;
+                    x = abs(x - 2);
+                }else{
+                    x--;
                 }
-                dp3 += positions.get(j).getValues().get(i);
+                y++;
             }
-            for (int i = 3, j = 4, cnt = 0; cnt < 4;  i--, j++, cnt++) {
-                if( j == 3){
-                    j = 0;
-                    i= abs(i - 2);
+            for (int y = 0, x = 4, cnt = 0; cnt < 4; cnt++) {
+                dp4 += positions.get(x).getValues().get(y);
+                if(y == 3){
+                    y = 0;
+                    x = abs(x - 2);
+                }else{
+                    x--;
                 }
-                dp4 += positions.get(j).getValues().get(i);
+                y++;
             }
         }
         setValues(dp1, dp2, dp3, dp4);

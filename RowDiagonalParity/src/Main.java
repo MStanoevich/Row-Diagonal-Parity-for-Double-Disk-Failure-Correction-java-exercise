@@ -14,7 +14,6 @@ public class Main {
         rd.calculate();
         System.out.println("Row disk values: " + rd.getValues());
 
-        rd.setValues(0,0,0,0);
         DiagonalDisk dg = new DiagonalDisk(d1, d2, d3, d4, rd);
         dg.diagonalParityCalculate();
         System.out.println("Diagonal Parity " + dg.getValues());
