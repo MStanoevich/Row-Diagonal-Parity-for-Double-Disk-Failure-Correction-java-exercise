@@ -25,13 +25,13 @@ public class RowDisk extends Disk {
                 v1 += positions.get(i).getValues().get(0);
             }
             for (int i = 0; i < positions.size(); i++) {
-                v2 += positions.get(i).getValues().get(0);
+                v2 += positions.get(i).getValues().get(1);
             }
             for (int i = 0; i < positions.size(); i++) {
-                v3 += positions.get(i).getValues().get(0);
+                v3 += positions.get(i).getValues().get(2);
             }
             for (int i = 0; i < positions.size(); i++) {
-                v4 += positions.get(i).getValues().get(0);
+                v4 += positions.get(i).getValues().get(3);
             }
             setValues(v1, v2, v3, v4);
         }

@@ -32,8 +32,8 @@ public class DiagonalDisk extends Disk {
                     x = abs(x - 2);
                 }else{
                     x--;
+                    y++;
                 }
-                y++;
             }
             for (int y = 2, x = 4, cnt = 0; cnt < 4; cnt++) {
                 dp2 += positions.get(x).getValues().get(y);
@@ -42,8 +42,8 @@ public class DiagonalDisk extends Disk {
                     x = abs(x - 2);
                 }else{
                     x--;
+                    y++;
                 }
-                y++;
             }
             for (int y = 3, x = 4, cnt = 0; cnt < 4; cnt++) {
                 dp3 += positions.get(x).getValues().get(y);
@@ -52,8 +52,8 @@ public class DiagonalDisk extends Disk {
                     x = abs(x - 2);
                 }else{
                     x--;
+                    y++;
                 }
-                y++;
             }
             for (int y = 0, x = 4, cnt = 0; cnt < 4; cnt++) {
                 dp4 += positions.get(x).getValues().get(y);
@@ -62,8 +62,8 @@ public class DiagonalDisk extends Disk {
                     x = abs(x - 2);
                 }else{
                     x--;
+                    y++;
                 }
-                y++;
             }
         }
         setValues(dp1, dp2, dp3, dp4);

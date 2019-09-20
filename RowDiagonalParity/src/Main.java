@@ -6,10 +6,10 @@ public class Main {
         Disk d3 = new Disk();
         Disk d4 = new Disk();
 
-        d1.setValues(0,0,0,0);
-        d2.setValues(0,0,0,0);
-        d3.setValues(0,0,0,0);
-        d4.setValues(0,0,0,0);
+        d1.setValues(1, 2, 3, 4);
+        d2.setValues(1, 2, 3, 4);
+        d3.setValues(1, 2, 3, 4);
+        d4.setValues(1, 2, 3, 4);
         RowDisk rd = new RowDisk(d1, d2, d3, d4);
         rd.calculate();
         System.out.println("Row disk values: " + rd.getValues());
