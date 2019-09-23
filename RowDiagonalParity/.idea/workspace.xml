@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e64e93d4-f92e-4ef6-8e93-395dada34d04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RowDiagonalParity/DiagonalDisk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RowDiagonalParity/DiagonalDisk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RowDiagonalParity/Disk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RowDiagonalParity/Disk.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RowDiagonalParity/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RowDiagonalParity/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RowDiagonalParity/RowDisk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RowDiagonalParity/RowDisk.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DiagonalDisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiagonalDisk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Disk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RowDisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RowDisk.java" afterDir="false" />
     </list>
@@ -76,7 +79,8 @@
       <workItem from="1568879382562" duration="1466000" />
       <workItem from="1568887996884" duration="1682000" />
       <workItem from="1568894362126" duration="5374000" />
-      <workItem from="1568902594624" duration="5740000" />
+      <workItem from="1568902594624" duration="10786000" />
+      <workItem from="1568986993381" duration="8000" />
     </task>
     <servers />
   </component>
@@ -99,10 +103,13 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DiagonalDisk.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="4" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Disk.java</url>
+          <line>31</line>
+          <properties class="Disk" method="recoverDiskIfBlocksAreRecovered">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

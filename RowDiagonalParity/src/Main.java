@@ -10,13 +10,15 @@ public class Main {
         d2.setValues(1, 2, 3, 4);
         d3.setValues(1, 2, 3, 4);
         d4.setValues(1, 2, 3, 4);
-        RowDisk rd = new RowDisk(d1, d2, d3, d4);
-        rd.calculate();
-        System.out.println("Row disk values: " + rd.getValues());
 
-        DiagonalDisk dg = new DiagonalDisk(d1, d2, d3, d4, rd);
-        dg.diagonalParityCalculate();
-        System.out.println("Diagonal Parity " + dg.getValues());
+        System.out.println(d4.getStatus());
+        d4.kill();
+        System.out.println(d4.getStatus());
+        d4.setValues(1, 2, 3, 4);
+        System.out.println(d4.getValues());
+        System.out.println(d4.getStatus());
+        d4.recoverDiskIfBlocksAreRecovered();
+        System.out.println(d4.getStatus());
 
 
     }

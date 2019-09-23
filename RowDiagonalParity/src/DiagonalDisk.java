@@ -21,6 +21,7 @@ public class DiagonalDisk extends Disk {
         int dp2 = 0;
         int dp3 = 0;
         int dp4 = 0;
+        setValues(0, 0, 0, 0);
 
         if(positions.size() == 5){
 

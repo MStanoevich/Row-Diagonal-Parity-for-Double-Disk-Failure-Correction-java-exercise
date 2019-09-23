@@ -21,6 +21,8 @@ public class RowDisk extends Disk {
             int v2 = 0;
             int v3 = 0;
             int v4 = 0;
+            setValues(0,0,0,0);
+
             for (int i = 0; i < positions.size(); i++) {
                 v1 += positions.get(i).getValues().get(0);
             }
